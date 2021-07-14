@@ -58,11 +58,7 @@ p {
     background-position: center;
 }
 
-.services {
-     width: 75%;
-     display: inline-block;
-     margin-left: 20px;
-}
+/*Refactoring Services Section CSS*/
 
 .text-float-left {
     float: left;
@@ -74,16 +70,21 @@ p {
     margin-left: 25px;
 }
 
-.services img {
+.float-left {
     width: 35%;
     float: left;
 }
 
+.float-right {
+    width: 35%;
+    float: right;
+}
 
-.content {
+.services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    background-color: #2a607c;
 }
 
 .benefits {
