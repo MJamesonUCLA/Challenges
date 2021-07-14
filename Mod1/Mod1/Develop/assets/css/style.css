@@ -58,15 +58,27 @@ p {
     background-position: center;
 }
 
-.float-left {
+.services {
+     width: 75%;
+     display: inline-block;
+     margin-left: 20px;
+}
+
+.text-float-left {
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.text-float-right {
     float: right;
     margin-left: 25px;
 }
+
+.services img {
+    width: 35%;
+    float: left;
+}
+
 
 .content {
     width: 75%;
